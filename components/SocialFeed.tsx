@@ -2,24 +2,24 @@ import InstagramCard from "@/components/InstagramCard";
 
 const instagramPosts = [
   {
-    image: "https://picsum.photos/seed/primalact-instagram-1/600/600",
-    username: "@primalact.ro",
-    postUrl: "https://instagram.com/primalact.ro",
+    image: "/images/instagram/post-1.jpg",
+    username: "@primalactsm",
+    postUrl: "https://www.instagram.com/primalactsm/p/Da3BP_BAANV/",
   },
   {
-    image: "https://picsum.photos/seed/primalact-instagram-2/600/600",
-    username: "@primalact.ro",
-    postUrl: "https://instagram.com/primalact.ro",
+    image: "/images/instagram/post-2.jpg",
+    username: "@primalactsm",
+    postUrl: "https://www.instagram.com/primalactsm/p/DYNEzeniRtc/",
   },
   {
-    image: "https://picsum.photos/seed/primalact-instagram-3/600/600",
-    username: "@primalact.ro",
-    postUrl: "https://instagram.com/primalact.ro",
+    image: "/images/instagram/post-3.jpg",
+    username: "@primalactsm",
+    postUrl: "https://www.instagram.com/primalactsm/p/DXpBtJdDTIj/",
   },
   {
-    image: "https://picsum.photos/seed/primalact-instagram-4/600/600",
-    username: "@primalact.ro",
-    postUrl: "https://instagram.com/primalact.ro",
+    image: "/images/instagram/post-4.jpg",
+    username: "@primalactsm",
+    postUrl: "https://www.instagram.com/primalactsm/p/DX01P39CPDK/",
   },
 ];
 
@@ -65,39 +65,21 @@ export default function SocialFeed() {
             <p className="mt-2 font-open text-[18px] leading-tight text-orange sm:text-[22px] md:text-[30px]">
               pe{" "}
               <a
-                href="https://facebook.com/primalact.ro"
+                href="https://www.facebook.com/profile.php?id=61573241979396"
                 target="_blank"
                 rel="noreferrer"
                 className="text-orange hover:underline"
               >
                 Facebook
-              </a>
-              ,{" "}
+              </a>{" "}
+              și{" "}
               <a
-                href="https://instagram.com/primalact.ro"
+                href="https://www.instagram.com/primalactsm/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-orange hover:underline"
               >
                 Instagram
-              </a>
-              ,{" "}
-              <a
-                href="https://youtube.com/@primalact.ro"
-                target="_blank"
-                rel="noreferrer"
-                className="text-orange hover:underline"
-              >
-                Youtube
-              </a>{" "}
-              și{" "}
-              <a
-                href="https://tiktok.com/@primalact.ro"
-                target="_blank"
-                rel="noreferrer"
-                className="text-orange hover:underline"
-              >
-                TikTok
               </a>
               !
             </p>
