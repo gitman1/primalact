@@ -47,30 +47,8 @@ export default function Footer() {
   return (
     <footer>
       <div className="bg-beige-header bg-no-repeat pt-40 pb-30 sm:bg-[url('/images/subsolbg.png')] sm:bg-cover sm:bg-center sm:pb-60">
-        <div className="mx-auto max-w-1200 px-5">
-          <div className="grid grid-cols-1 gap-x-25 gap-y-30 text-center sm:grid-cols-3 sm:text-left">
-            {linkColumns.map((col) => (
-              <nav key={col.title} aria-label={col.title}>
-                <p className="font-open text-14 font-bold uppercase tracking-wide text-brown-500">
-                  {col.title}
-                </p>
-                <ul className="mt-15 space-y-1 font-open text-16 leading-snug">
-                  {col.links.map((link) => (
-                    <li key={link.href}>
-                      <Link
-                        href={link.href}
-                        className="text-brown-dark transition-colors hover:text-green-mountain"
-                      >
-                        {link.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </nav>
-            ))}
-          </div>
-
-          <div className="mt-40 flex flex-wrap justify-center gap-x-30 gap-y-3 sm:justify-start">
+        <div className="mx-auto flex max-w-1200 flex-col px-5">
+          <div className="order-2 mt-40 flex flex-wrap justify-center gap-x-30 gap-y-3 sm:order-1 sm:mb-10 sm:mt-0 sm:justify-end">
             {socialLinks.map((social) => (
               <a
                 key={social.platform}
@@ -90,6 +68,28 @@ export default function Footer() {
                 </svg>
                 {social.platform}
               </a>
+            ))}
+          </div>
+
+          <div className="order-1 grid grid-cols-1 gap-x-25 gap-y-30 text-center sm:order-2 sm:grid-cols-3 sm:text-left">
+            {linkColumns.map((col) => (
+              <nav key={col.title} aria-label={col.title}>
+                <p className="font-open text-14 font-bold uppercase tracking-wide text-brown-500">
+                  {col.title}
+                </p>
+                <ul className="mt-15 space-y-1 font-open text-16 leading-snug">
+                  {col.links.map((link) => (
+                    <li key={link.href}>
+                      <Link
+                        href={link.href}
+                        className="text-brown-dark transition-colors hover:text-green-mountain"
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
             ))}
           </div>
         </div>
