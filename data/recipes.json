@@ -1,0 +1,158 @@
+{
+  "recipes": [
+    {
+      "slug": "papanasi-cu-branza-de-vaci",
+      "title": "Papanași cu brânză de vaci",
+      "image": "https://picsum.photos/seed/primalact-reteta-1/900/700",
+      "shortDescription": "Clasicul desert românesc, pufos și aromat, cu brânză de vaci proaspătă.",
+      "products": ["branza-de-vaci"],
+      "type": "deserturi-cu-branza",
+      "typeLabel": "Deserturi cu brânză",
+      "prepTime": "40 min",
+      "difficulty": "Medie",
+      "status": "published",
+      "ingredients": [
+        "500 g brânză de vaci Primalact",
+        "2 ouă",
+        "100 g zahăr",
+        "100 g griș",
+        "50 g făină",
+        "Coajă de lămâie",
+        "Ulei pentru prăjit",
+        "Smântână și dulceață, pentru servire"
+      ],
+      "steps": [
+        "Amestecă brânza de vaci cu ouăle, zahărul, grișul și coaja de lămâie până obții o compoziție omogenă.",
+        "Lasă compoziția la rece 15 minute, apoi formează bilele de papanași, trecute prin puțină făină.",
+        "Prăjește papanașii în ulei încins, la foc mediu, până se rumenesc uniform pe toate părțile.",
+        "Scurge-i pe hârtie absorbantă și servește-i calzi, cu smântână și dulceață de afine sau vișine."
+      ]
+    },
+    {
+      "slug": "pizza-cu-mozzarella",
+      "title": "Pizza de casă cu mozzarella",
+      "image": "https://picsum.photos/seed/primalact-reteta-2/900/700",
+      "shortDescription": "Blat crocant, sos de roșii și mozzarella care se întinde perfect.",
+      "products": ["mozzarella"],
+      "type": "fel-principal",
+      "typeLabel": "Fel principal",
+      "prepTime": "50 min",
+      "difficulty": "Medie",
+      "status": "published",
+      "ingredients": [
+        "1 blat de pizza",
+        "200 g sos de roșii",
+        "200 g mozzarella Primalact",
+        "Busuioc proaspăt",
+        "Ulei de măsline"
+      ],
+      "steps": [
+        "Întinde blatul de pizza pe o tavă tapetată cu hârtie de copt.",
+        "Adaugă sosul de roșii uniform, lăsând o margine de 1-2 cm.",
+        "Presară mozzarella ruptă în bucăți peste tot blatul.",
+        "Coace la 220°C timp de 12-15 minute, până marginile se rumenesc și brânza se topește.",
+        "Decorează cu frunze de busuioc proaspăt și un fir de ulei de măsline înainte de servire."
+      ]
+    },
+    {
+      "slug": "smoothie-de-fructe-cu-chefir",
+      "title": "Smoothie de fructe cu chefir",
+      "image": "https://picsum.photos/seed/primalact-reteta-3/900/700",
+      "shortDescription": "Un smoothie răcoritor și hrănitor, ideal pentru micul dejun.",
+      "products": ["chefir"],
+      "type": "mic-dejun",
+      "typeLabel": "Mic dejun",
+      "prepTime": "10 min",
+      "difficulty": "Ușoară",
+      "status": "published",
+      "ingredients": [
+        "250 ml chefir Primalact",
+        "1 banană",
+        "100 g fructe de pădure congelate",
+        "1 lingură miere"
+      ],
+      "steps": [
+        "Pune chefirul, banana și fructele de pădure în blender.",
+        "Adaugă mierea și mixează 30-40 de secunde, până compoziția devine fină și omogenă.",
+        "Toarnă smoothie-ul în pahare și servește imediat, eventual decorat cu câteva fructe întregi."
+      ]
+    },
+    {
+      "slug": "placinte-cu-branza-si-marar",
+      "title": "Plăcinte cu brânză de vaci și mărar",
+      "image": "https://picsum.photos/seed/primalact-reteta-4/900/700",
+      "shortDescription": "Plăcinte fragede, umplute cu brânză de vaci și mărar proaspăt.",
+      "products": ["branza-de-vaci", "smantana"],
+      "type": "aperitive",
+      "typeLabel": "Aperitive",
+      "prepTime": "1 h",
+      "difficulty": "Medie",
+      "status": "wip",
+      "ingredients": [
+        "Foi de plăcintă",
+        "400 g brânză de vaci Primalact",
+        "2 ouă",
+        "Mărar verde tocat",
+        "50 ml smântână Primalact",
+        "Unt topit, pentru uns foile"
+      ],
+      "steps": [
+        "Amestecă brânza de vaci cu ouăle, smântâna și mărarul tocat, până obții o umplutură cremoasă.",
+        "Unge fiecare foaie de plăcintă cu unt topit și așază o parte din umplutură.",
+        "Rulează sau pliază foile în forma preferată și așază-le într-o tavă unsă.",
+        "Coace la 180°C timp de 25-30 de minute, până foile se rumenesc frumos."
+      ]
+    },
+    {
+      "slug": "sufleu-de-cascaval-afumat",
+      "title": "Sufleu de cașcaval afumat",
+      "image": "https://picsum.photos/seed/primalact-reteta-5/900/700",
+      "shortDescription": "Un sufleu pufos, cu aromă bogată de cașcaval afumat.",
+      "products": ["cascaval-afumat"],
+      "type": "retete-calde",
+      "typeLabel": "Rețete calde",
+      "prepTime": "45 min",
+      "difficulty": "Avansată",
+      "status": "wip",
+      "ingredients": [
+        "300 g cașcaval afumat Primalact, ras",
+        "4 ouă",
+        "200 ml lapte",
+        "30 g unt",
+        "30 g făină",
+        "Sare, piper"
+      ],
+      "steps": [
+        "Prepară un sos bechamel din unt, făină și lapte, amestecând continuu până se îngroașă.",
+        "Ia sosul de pe foc, adaugă gălbenușurile și cașcavalul ras, amestecând bine.",
+        "Bate albușurile spumă și încorporează-le ușor în compoziție.",
+        "Toarnă în forme unse și coace la 180°C timp de 20-25 de minute, fără să deschizi cuptorul în timpul coacerii."
+      ]
+    },
+    {
+      "slug": "supa-crema-cu-smantana",
+      "title": "Supă-cremă de legume cu smântână",
+      "image": "https://picsum.photos/seed/primalact-reteta-6/900/700",
+      "shortDescription": "O supă catifelată, îmbunătățită cu smântână dulce pentru gătit.",
+      "products": ["smantana"],
+      "type": "retete-calde",
+      "typeLabel": "Rețete calde",
+      "prepTime": "30 min",
+      "difficulty": "Ușoară",
+      "status": "wip",
+      "ingredients": [
+        "500 g legume de sezon (morcovi, cartofi, dovlecel)",
+        "1 ceapă",
+        "700 ml supă de legume",
+        "100 ml smântână dulce pentru gătit Primalact",
+        "Sare, piper, ulei de măsline"
+      ],
+      "steps": [
+        "Călește ceapa tocată în puțin ulei, apoi adaugă legumele tăiate cuburi.",
+        "Toarnă supa de legume și fierbe la foc mediu până legumele sunt fragede.",
+        "Pasează totul cu blenderul vertical, până obții o cremă fină.",
+        "Adaugă smântâna, mai fierbe 2-3 minute și asezonează după gust cu sare și piper."
+      ]
+    }
+  ]
+}

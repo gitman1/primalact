@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fffcf1;
+  font-family: var(--font-yanone), sans-serif;
+  font-size: 25px;
+  color: #000000;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .container-px {
+    @apply px-5 md:px-10;
+  }
+
+  /* Titluri principale */
+  .title-new {
+    @apply font-dirty text-brown-dark leading-none;
+    font-size: 65px;
+  }
+  @media (max-width: 1024px) {
+    .title-new {
+      font-size: 52px;
+    }
+  }
+  @media (max-width: 640px) {
+    .title-new {
+      font-size: 40px;
+    }
+  }
+
+  /* Hero title */
+  .hero-title {
+    @apply font-dirty leading-085;
+    color: #fff9e3;
+    font-size: 100px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  }
+  .hero-title--60 {
+    font-size: 60px;
+  }
+  @media (max-width: 1024px) {
+    .hero-title {
+      font-size: 60px;
+    }
+  }
+  @media (max-width: 640px) {
+    .hero-title {
+      font-size: 45px;
+    }
+  }
+
+  /* Subtitluri */
+  .subtitle-new {
+    @apply font-open font-bold text-brown-500;
+    font-size: 26px;
+  }
+
+  /* Descrieri/paragrafe */
+  .description-new {
+    @apply font-open text-brown-dark;
+    font-size: 18px;
+  }
+  .description-new--light {
+    @apply text-brown-500;
+  }
+
+  /* Buton standard */
+  .btn {
+    @apply inline-block font-open font-bold relative overflow-hidden;
+    background-color: #f1e4b2;
+    color: #1B1C6B;
+    font-size: 18px;
+    padding: 14px 32px;
+    border-radius: 9999px;
+    border: 2px solid #1B1C6B;
+    transition: color 0.3s;
+    z-index: 0;
+    text-decoration: none;
+  }
+  .btn::after {
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 100%;
+    transition: top 0.3s ease;
+    z-index: -1;
+  }
+  .btn:hover::after {
+    top: 0;
+  }
+  .btn:hover {
+    color: #1B1C6B;
+  }
+}

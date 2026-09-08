@@ -1,0 +1,694 @@
+{
+  "categories": [
+    {
+      "slug": "lapte",
+      "name": "Lapte",
+      "tagline": "Prospețime zilnică, de la fermă la masa ta",
+      "description": "Lapte proaspăt și UHT, colectat zilnic de la fermieri din Satu Mare și pasteurizat cu grijă pentru a păstra gustul natural.",
+      "image": "https://picsum.photos/seed/primalact-cat-lapte/1200/900",
+      "products": [
+        {
+          "slug": "lapte-proaspat-3-5",
+          "name": "Lapte proaspăt 3.5%",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-lapte-1/900/900",
+          "shortDescription": "Lapte proaspăt pasteurizat, cu gust plin și consistență cremoasă.",
+          "description": "Lapte proaspăt pasteurizat, obținut din lapte de vacă colectat de la ferme partenere din zona Satu Mare. Păstrează gustul natural și valorile nutriționale ale laptelui integral.",
+          "weight": "1 L",
+          "ingredients": ["Lapte de vacă integral, pasteurizat"],
+          "servingSize": "100 ml",
+          "nutrition": [
+            { "label": "Energie", "value": "268 kJ / 64 kcal" },
+            { "label": "Grăsimi", "value": "3.5 g" },
+            { "label": "din care acizi grași saturați", "value": "2.3 g" },
+            { "label": "Glucide", "value": "4.7 g" },
+            { "label": "din care zaharuri", "value": "4.7 g" },
+            { "label": "Proteine", "value": "3.2 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        },
+        {
+          "slug": "lapte-proaspat-1-5",
+          "name": "Lapte proaspăt 1.5%",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-lapte-2/900/900",
+          "shortDescription": "Variantă semi-degresată, ideală pentru consum zilnic.",
+          "description": "Lapte proaspăt pasteurizat, parțial degresat, cu un conținut redus de grăsime, păstrând în același timp aportul de proteine și calciu.",
+          "weight": "1 L",
+          "ingredients": ["Lapte de vacă parțial degresat, pasteurizat"],
+          "servingSize": "100 ml",
+          "nutrition": [
+            { "label": "Energie", "value": "180 kJ / 43 kcal" },
+            { "label": "Grăsimi", "value": "1.5 g" },
+            { "label": "din care acizi grași saturați", "value": "1.0 g" },
+            { "label": "Glucide", "value": "4.8 g" },
+            { "label": "din care zaharuri", "value": "4.8 g" },
+            { "label": "Proteine", "value": "3.3 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        },
+        {
+          "slug": "lapte-uht-3-5",
+          "name": "Lapte UHT 3.5%",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-lapte-3/900/900",
+          "shortDescription": "Lapte UHT cu termen de valabilitate extins, gust autentic.",
+          "description": "Lapte UHT integral, tratat termic la temperatură ultra-înaltă pentru o valabilitate extinsă fără a compromite gustul și valorile nutriționale.",
+          "weight": "1 L",
+          "ingredients": ["Lapte de vacă integral, UHT"],
+          "servingSize": "100 ml",
+          "nutrition": [
+            { "label": "Energie", "value": "266 kJ / 64 kcal" },
+            { "label": "Grăsimi", "value": "3.5 g" },
+            { "label": "din care acizi grași saturați", "value": "2.3 g" },
+            { "label": "Glucide", "value": "4.6 g" },
+            { "label": "din care zaharuri", "value": "4.6 g" },
+            { "label": "Proteine", "value": "3.1 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "smantana",
+      "name": "Smântână",
+      "tagline": "Cremozitate naturală în fiecare lingură",
+      "description": "Smântână fermentată și dulce, fabricată din lapte proaspăt, perfectă pentru gătit sau ca aliment de bază la masă.",
+      "image": "https://picsum.photos/seed/primalact-cat-smantana/1200/900",
+      "products": [
+        {
+          "slug": "smantana-fermentata-20",
+          "name": "Smântână fermentată 20%",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-smantana-1/900/900",
+          "shortDescription": "Smântână fermentată, cremoasă, cu gust ușor acrișor.",
+          "description": "Smântână fermentată cu culturi selecționate de bacterii lactice, obținută din smântână proaspătă de lapte de vacă. Ideală pentru ciorbe și garnituri.",
+          "weight": "400 g",
+          "ingredients": ["Smântână de lapte", "Culturi lactice selecționate"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "837 kJ / 202 kcal" },
+            { "label": "Grăsimi", "value": "20 g" },
+            { "label": "din care acizi grași saturați", "value": "13 g" },
+            { "label": "Glucide", "value": "3.2 g" },
+            { "label": "din care zaharuri", "value": "3.2 g" },
+            { "label": "Proteine", "value": "2.8 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        },
+        {
+          "slug": "smantana-fermentata-12",
+          "name": "Smântână fermentată 12%",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-smantana-2/900/900",
+          "shortDescription": "Variantă mai ușoară, cu textură fină și gust proaspăt.",
+          "description": "Smântână fermentată cu conținut redus de grăsime, potrivită pentru un consum zilnic echilibrat, fără a renunța la gustul autentic.",
+          "weight": "400 g",
+          "ingredients": ["Smântână de lapte", "Culturi lactice selecționate"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "570 kJ / 137 kcal" },
+            { "label": "Grăsimi", "value": "12 g" },
+            { "label": "din care acizi grași saturați", "value": "7.8 g" },
+            { "label": "Glucide", "value": "3.6 g" },
+            { "label": "din care zaharuri", "value": "3.6 g" },
+            { "label": "Proteine", "value": "3.1 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        },
+        {
+          "slug": "smantana-dulce-gatit-20",
+          "name": "Smântână dulce pentru gătit 20%",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-smantana-3/900/900",
+          "shortDescription": "Smântână dulce, stabilă la fierbere, pentru sosuri și prăjituri.",
+          "description": "Smântână dulce cu textură fină, special formulată pentru a rezista la temperaturi ridicate, ideală pentru sosuri, supe-cremă și deserturi.",
+          "weight": "200 ml",
+          "ingredients": ["Smântână dulce de lapte", "Stabilizatori naturali"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "837 kJ / 202 kcal" },
+            { "label": "Grăsimi", "value": "20 g" },
+            { "label": "din care acizi grași saturați", "value": "13.5 g" },
+            { "label": "Glucide", "value": "3.0 g" },
+            { "label": "din care zaharuri", "value": "3.0 g" },
+            { "label": "Proteine", "value": "2.5 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "branza-de-vaci",
+      "name": "Brânză de vaci",
+      "tagline": "Gustul copilăriei, proaspăt în fiecare zi",
+      "description": "Brânză de vaci proaspătă, moale și fină, obținută prin metode tradiționale din lapte pasteurizat.",
+      "image": "https://picsum.photos/seed/primalact-cat-branzavaci/1200/900",
+      "products": [
+        {
+          "slug": "branza-de-vaci-proaspata",
+          "name": "Brânză de vaci proaspătă",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-bvaci-1/900/900",
+          "shortDescription": "Brânză proaspătă, fină, cu gust dulceag și textură cremoasă.",
+          "description": "Brânză de vaci obținută prin fermentare lactică naturală, fără conservanți, potrivită pentru micul dejun sau ca ingredient în preparate culinare.",
+          "weight": "300 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice", "Enzimă coagulantă"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "497 kJ / 119 kcal" },
+            { "label": "Grăsimi", "value": "5 g" },
+            { "label": "din care acizi grași saturați", "value": "3.3 g" },
+            { "label": "Glucide", "value": "3.4 g" },
+            { "label": "din care zaharuri", "value": "3.4 g" },
+            { "label": "Proteine", "value": "13 g" },
+            { "label": "Sare", "value": "0.3 g" }
+          ]
+        },
+        {
+          "slug": "branza-de-vaci-grasa",
+          "name": "Brânză de vaci grasă",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-bvaci-2/900/900",
+          "shortDescription": "Variantă grasă, cremoasă, cu aromă bogată.",
+          "description": "Brânză de vaci cu conținut ridicat de grăsime, textură catifelată și gust bogat, ideală pentru rețete tradiționale precum plăcintele și papanașii.",
+          "weight": "300 g",
+          "ingredients": ["Lapte de vacă integral", "Culturi lactice", "Enzimă coagulantă"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "670 kJ / 161 kcal" },
+            { "label": "Grăsimi", "value": "10 g" },
+            { "label": "din care acizi grași saturați", "value": "6.7 g" },
+            { "label": "Glucide", "value": "3.0 g" },
+            { "label": "din care zaharuri", "value": "3.0 g" },
+            { "label": "Proteine", "value": "13.5 g" },
+            { "label": "Sare", "value": "0.3 g" }
+          ]
+        },
+        {
+          "slug": "branza-de-vaci-la-ferma",
+          "name": "Brânză de vaci La Ferma",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-bvaci-3/900/900",
+          "shortDescription": "Rețetă tradițională, preparată în cazane, la fermă.",
+          "description": "Brânză de vaci preparată după o rețetă tradițională, cu fermentare lentă, pentru un gust autentic, așa cum se făcea odinioară la fermă.",
+          "weight": "250 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice tradiționale", "Enzimă coagulantă"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "540 kJ / 129 kcal" },
+            { "label": "Grăsimi", "value": "6.5 g" },
+            { "label": "din care acizi grași saturați", "value": "4.3 g" },
+            { "label": "Glucide", "value": "3.2 g" },
+            { "label": "din care zaharuri", "value": "3.2 g" },
+            { "label": "Proteine", "value": "14 g" },
+            { "label": "Sare", "value": "0.3 g" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "branzeturi",
+      "name": "Brânzeturi",
+      "tagline": "O gamă variată, pentru orice masă",
+      "description": "Telemea, brânză burduf și brânză topită, realizate după rețete verificate, cu maturare atentă.",
+      "image": "https://picsum.photos/seed/primalact-cat-branzeturi/1200/900",
+      "products": [
+        {
+          "slug": "telemea-de-vaca",
+          "name": "Telemea de vacă",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-branzeturi-1/900/900",
+          "shortDescription": "Telemea sărată-potrivit, maturată în saramură.",
+          "description": "Telemea de vacă maturată tradițional în saramură, cu textură fermă și gust sărat-echilibrat, perfectă pentru salate sau ca aperitiv.",
+          "weight": "400 g",
+          "ingredients": ["Lapte de vacă", "Sare", "Culturi lactice", "Enzimă coagulantă"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1046 kJ / 251 kcal" },
+            { "label": "Grăsimi", "value": "20 g" },
+            { "label": "din care acizi grași saturați", "value": "13 g" },
+            { "label": "Glucide", "value": "1.0 g" },
+            { "label": "din care zaharuri", "value": "1.0 g" },
+            { "label": "Proteine", "value": "16 g" },
+            { "label": "Sare", "value": "2.8 g" }
+          ]
+        },
+        {
+          "slug": "branza-burduf",
+          "name": "Brânză burduf",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-branzeturi-2/900/900",
+          "shortDescription": "Maturată în coajă de brad, aromă intensă și picantă.",
+          "description": "Brânză burduf obținută prin maturarea telemelii mărunțite în scoarță de brad, pentru o aromă intensă, specifică rețetelor de munte.",
+          "weight": "300 g",
+          "ingredients": ["Telemea de vacă", "Sare"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1150 kJ / 276 kcal" },
+            { "label": "Grăsimi", "value": "23 g" },
+            { "label": "din care acizi grași saturați", "value": "15 g" },
+            { "label": "Glucide", "value": "0.8 g" },
+            { "label": "din care zaharuri", "value": "0.8 g" },
+            { "label": "Proteine", "value": "17 g" },
+            { "label": "Sare", "value": "3.2 g" }
+          ]
+        },
+        {
+          "slug": "branza-topita",
+          "name": "Brânză topită",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-branzeturi-3/900/900",
+          "shortDescription": "Cremoasă, ușor de întins, potrivită pentru sandvișuri.",
+          "description": "Brânză topită cu textură fină și cremoasă, obținută prin topirea controlată a cașcavalului, ideală pentru sandvișuri și gustări rapide.",
+          "weight": "140 g (8 felii)",
+          "ingredients": ["Cașcaval", "Unt", "Săruri de topire", "Sare"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1080 kJ / 260 kcal" },
+            { "label": "Grăsimi", "value": "21 g" },
+            { "label": "din care acizi grași saturați", "value": "14 g" },
+            { "label": "Glucide", "value": "2.5 g" },
+            { "label": "din care zaharuri", "value": "1.0 g" },
+            { "label": "Proteine", "value": "15 g" },
+            { "label": "Sare", "value": "2.0 g" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cascaval",
+      "name": "Cașcaval",
+      "tagline": "Maturat cu răbdare, pentru un gust desăvârșit",
+      "description": "Cașcaval obținut prin metoda tradițională pasta filata, maturat pentru o textură elastică și un gust bogat.",
+      "image": "https://picsum.photos/seed/primalact-cat-cascaval/1200/900",
+      "products": [
+        {
+          "slug": "cascaval-dalia",
+          "name": "Cașcaval Dalia",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-cascaval-1/900/900",
+          "shortDescription": "Cașcavalul clasic Primalact, cu textură elastică.",
+          "description": "Cașcaval obținut din lapte de vacă prin procedeul pasta filata, maturat minim 30 de zile pentru un gust echilibrat și o textură elastică specifică.",
+          "weight": "vrac / 300 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice", "Enzimă coagulantă", "Sare"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1130 kJ / 271 kcal" },
+            { "label": "Grăsimi", "value": "22 g" },
+            { "label": "din care acizi grași saturați", "value": "14.5 g" },
+            { "label": "Glucide", "value": "1.5 g" },
+            { "label": "din care zaharuri", "value": "1.5 g" },
+            { "label": "Proteine", "value": "24 g" },
+            { "label": "Sare", "value": "1.6 g" }
+          ]
+        },
+        {
+          "slug": "cascaval-trapist",
+          "name": "Cașcaval Trapist",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-cascaval-2/900/900",
+          "shortDescription": "Cașcaval semitare, cu miros fin de nucă.",
+          "description": "Cașcaval maturat de tip trapist, cu textură semitare și note aromate fine, potrivit pentru platouri sau gustări.",
+          "weight": "vrac / 300 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice", "Enzimă coagulantă", "Sare"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1160 kJ / 278 kcal" },
+            { "label": "Grăsimi", "value": "23 g" },
+            { "label": "din care acizi grași saturați", "value": "15 g" },
+            { "label": "Glucide", "value": "1.2 g" },
+            { "label": "din care zaharuri", "value": "1.2 g" },
+            { "label": "Proteine", "value": "23 g" },
+            { "label": "Sare", "value": "1.5 g" }
+          ]
+        },
+        {
+          "slug": "cascaval-la-ferma",
+          "name": "Cașcaval La Ferma",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-cascaval-3/900/900",
+          "shortDescription": "Maturat mai îndelungat, pentru un gust mai pronunțat.",
+          "description": "Cașcaval maturat peste 60 de zile, cu gust mai pronunțat și textură mai fermă, realizat după rețeta tradițională de la fermă.",
+          "weight": "300 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice", "Enzimă coagulantă", "Sare"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1180 kJ / 283 kcal" },
+            { "label": "Grăsimi", "value": "23.5 g" },
+            { "label": "din care acizi grași saturați", "value": "15.5 g" },
+            { "label": "Glucide", "value": "1.0 g" },
+            { "label": "din care zaharuri", "value": "1.0 g" },
+            { "label": "Proteine", "value": "24.5 g" },
+            { "label": "Sare", "value": "1.7 g" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cascaval-afumat",
+      "name": "Cașcaval afumat",
+      "tagline": "Afumat natural, cu lemn de fag",
+      "description": "Cașcaval afumat tradițional, pentru o aromă intensă și o culoare aurie caracteristică.",
+      "image": "https://picsum.photos/seed/primalact-cat-cascavalafumat/1200/900",
+      "products": [
+        {
+          "slug": "cascaval-afumat-clasic",
+          "name": "Cașcaval afumat clasic",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-cascafumat-1/900/900",
+          "shortDescription": "Afumat natural la rece, cu aromă echilibrată.",
+          "description": "Cașcaval afumat natural, prin metoda tradițională la rece, cu lemn de fag, pentru o aromă afumată echilibrată și o coajă aurie.",
+          "weight": "vrac / 250 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice", "Enzimă coagulantă", "Sare", "Afumare naturală"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1140 kJ / 273 kcal" },
+            { "label": "Grăsimi", "value": "22 g" },
+            { "label": "din care acizi grași saturați", "value": "14.5 g" },
+            { "label": "Glucide", "value": "1.3 g" },
+            { "label": "din care zaharuri", "value": "1.3 g" },
+            { "label": "Proteine", "value": "23.5 g" },
+            { "label": "Sare", "value": "1.8 g" }
+          ]
+        },
+        {
+          "slug": "cascaval-afumat-la-ferma",
+          "name": "Cașcaval afumat La Ferma",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-cascafumat-2/900/900",
+          "shortDescription": "Afumat mai intens, rețetă tradițională de fermă.",
+          "description": "Cașcaval afumat conform rețetei tradiționale de la fermă, cu o afumare mai intensă și textură fermă, ideal pentru gustări reci.",
+          "weight": "250 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice", "Enzimă coagulantă", "Sare", "Afumare naturală"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1155 kJ / 277 kcal" },
+            { "label": "Grăsimi", "value": "22.5 g" },
+            { "label": "din care acizi grași saturați", "value": "15 g" },
+            { "label": "Glucide", "value": "1.2 g" },
+            { "label": "din care zaharuri", "value": "1.2 g" },
+            { "label": "Proteine", "value": "24 g" },
+            { "label": "Sare", "value": "1.9 g" }
+          ]
+        },
+        {
+          "slug": "cascaval-afumat-feliat",
+          "name": "Cașcaval afumat feliat",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-cascafumat-3/900/900",
+          "shortDescription": "Felii uniforme, perfecte pentru sandvișuri.",
+          "description": "Cașcaval afumat, feliat uniform și ambalat pentru prospețime, ideal pentru sandvișuri și gustări la pachet.",
+          "weight": "150 g (10 felii)",
+          "ingredients": ["Lapte de vacă", "Culturi lactice", "Enzimă coagulantă", "Sare", "Afumare naturală"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1140 kJ / 273 kcal" },
+            { "label": "Grăsimi", "value": "22 g" },
+            { "label": "din care acizi grași saturați", "value": "14.5 g" },
+            { "label": "Glucide", "value": "1.3 g" },
+            { "label": "din care zaharuri", "value": "1.3 g" },
+            { "label": "Proteine", "value": "23.5 g" },
+            { "label": "Sare", "value": "1.8 g" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mozzarella",
+      "name": "Mozzarella",
+      "tagline": "Fină, elastică, gata pentru rețetele tale",
+      "description": "Mozzarella proaspătă tip pasta filata, cu textură fină și gust delicat, potrivită pentru pizza și salate.",
+      "image": "https://picsum.photos/seed/primalact-cat-mozzarella/1200/900",
+      "products": [
+        {
+          "slug": "mozzarella-clasica",
+          "name": "Mozzarella clasică",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-mozzarella-1/900/900",
+          "shortDescription": "Mozzarella proaspătă, în saramură ușoară.",
+          "description": "Mozzarella proaspătă, cu textură moale și elastică, păstrată în saramură ușoară pentru prospețime, perfectă pentru salate caprese.",
+          "weight": "125 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice", "Enzimă coagulantă", "Sare"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1046 kJ / 251 kcal" },
+            { "label": "Grăsimi", "value": "19 g" },
+            { "label": "din care acizi grași saturați", "value": "12.5 g" },
+            { "label": "Glucide", "value": "1.0 g" },
+            { "label": "din care zaharuri", "value": "1.0 g" },
+            { "label": "Proteine", "value": "18 g" },
+            { "label": "Sare", "value": "0.6 g" }
+          ]
+        },
+        {
+          "slug": "mozzarella-bucati-pizza",
+          "name": "Mozzarella bucăți pentru pizza",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-mozzarella-2/900/900",
+          "shortDescription": "Tăiată cubulețe, se topește uniform la copt.",
+          "description": "Mozzarella tăiată în bucăți uniforme, cu proprietăți excelente de topire, special dezvoltată pentru uz în pizza și preparate gratinate.",
+          "weight": "200 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice", "Enzimă coagulantă", "Sare"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1130 kJ / 271 kcal" },
+            { "label": "Grăsimi", "value": "21 g" },
+            { "label": "din care acizi grași saturați", "value": "14 g" },
+            { "label": "Glucide", "value": "1.5 g" },
+            { "label": "din care zaharuri", "value": "1.5 g" },
+            { "label": "Proteine", "value": "20 g" },
+            { "label": "Sare", "value": "1.2 g" }
+          ]
+        },
+        {
+          "slug": "mozzarella-fior-di-latte",
+          "name": "Mozzarella Fior di Latte",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-mozzarella-3/900/900",
+          "shortDescription": "Rețetă italiană clasică, gust delicat de lapte proaspăt.",
+          "description": "Mozzarella tip Fior di Latte, preparată după rețeta italiană clasică, cu gust delicat de lapte proaspăt și textură fină, filantă.",
+          "weight": "150 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice", "Enzimă coagulantă", "Sare"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "1050 kJ / 252 kcal" },
+            { "label": "Grăsimi", "value": "19.5 g" },
+            { "label": "din care acizi grași saturați", "value": "13 g" },
+            { "label": "Glucide", "value": "1.0 g" },
+            { "label": "din care zaharuri", "value": "1.0 g" },
+            { "label": "Proteine", "value": "18.5 g" },
+            { "label": "Sare", "value": "0.5 g" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chefir",
+      "name": "Chefir",
+      "tagline": "Vioi, natural, plin de culturi vii",
+      "description": "Chefir preparat cu culturi vii de kefir, cu gust ușor acrișor și efervescent, pentru un plus de vitalitate zilnică.",
+      "image": "https://picsum.photos/seed/primalact-cat-chefir/1200/900",
+      "products": [
+        {
+          "slug": "chefir-clasic-1-8",
+          "name": "Chefir clasic 1.8%",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-chefir-1/900/900",
+          "shortDescription": "Chefir cu conținut redus de grăsime, gust vioi.",
+          "description": "Chefir obținut prin fermentarea laptelui cu culturi vii de kefir, cu gust ușor acrișor și textură fluidă, potrivit pentru consum zilnic.",
+          "weight": "330 ml",
+          "ingredients": ["Lapte de vacă parțial degresat", "Culturi de kefir"],
+          "servingSize": "100 ml",
+          "nutrition": [
+            { "label": "Energie", "value": "210 kJ / 50 kcal" },
+            { "label": "Grăsimi", "value": "1.8 g" },
+            { "label": "din care acizi grași saturați", "value": "1.2 g" },
+            { "label": "Glucide", "value": "4.0 g" },
+            { "label": "din care zaharuri", "value": "4.0 g" },
+            { "label": "Proteine", "value": "3.3 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        },
+        {
+          "slug": "chefir-3-6",
+          "name": "Chefir 3.6%",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-chefir-2/900/900",
+          "shortDescription": "Variantă mai cremoasă, gust bogat de lapte integral.",
+          "description": "Chefir din lapte integral, cu textură mai cremoasă și gust mai bogat, obținut prin fermentare naturală cu culturi vii.",
+          "weight": "330 ml",
+          "ingredients": ["Lapte de vacă integral", "Culturi de kefir"],
+          "servingSize": "100 ml",
+          "nutrition": [
+            { "label": "Energie", "value": "277 kJ / 66 kcal" },
+            { "label": "Grăsimi", "value": "3.6 g" },
+            { "label": "din care acizi grași saturați", "value": "2.4 g" },
+            { "label": "Glucide", "value": "4.0 g" },
+            { "label": "din care zaharuri", "value": "4.0 g" },
+            { "label": "Proteine", "value": "3.2 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        },
+        {
+          "slug": "chefir-slab",
+          "name": "Chefir slab 0.5%",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-chefir-3/900/900",
+          "shortDescription": "Aproape degresat, potrivit pentru un stil de viață activ.",
+          "description": "Chefir degresat, cu foarte puțină grăsime, păstrând aciditatea și culturile vii specifice, potrivit pentru cei atenți la aportul caloric.",
+          "weight": "330 ml",
+          "ingredients": ["Lapte de vacă degresat", "Culturi de kefir"],
+          "servingSize": "100 ml",
+          "nutrition": [
+            { "label": "Energie", "value": "146 kJ / 35 kcal" },
+            { "label": "Grăsimi", "value": "0.5 g" },
+            { "label": "din care acizi grași saturați", "value": "0.3 g" },
+            { "label": "Glucide", "value": "4.2 g" },
+            { "label": "din care zaharuri", "value": "4.2 g" },
+            { "label": "Proteine", "value": "3.4 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sana",
+      "name": "Sana",
+      "tagline": "Clasicul de fiecare zi, cremos și răcoritor",
+      "description": "Sana preparată cu culturi lactice tradiționale, cu textură fină și gust proaspăt.",
+      "image": "https://picsum.photos/seed/primalact-cat-sana/1200/900",
+      "products": [
+        {
+          "slug": "sana-clasica",
+          "name": "Sana clasică",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-sana-1/900/900",
+          "shortDescription": "Textură fină, gust proaspăt, echilibru clasic.",
+          "description": "Sana obținută prin fermentarea laptelui cu culturi lactice selecționate, cu textură cremoasă și gust proaspăt, ușor acrișor.",
+          "weight": "330 g",
+          "ingredients": ["Lapte de vacă", "Culturi lactice selecționate"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "270 kJ / 65 kcal" },
+            { "label": "Grăsimi", "value": "3.0 g" },
+            { "label": "din care acizi grași saturați", "value": "2.0 g" },
+            { "label": "Glucide", "value": "4.5 g" },
+            { "label": "din care zaharuri", "value": "4.5 g" },
+            { "label": "Proteine", "value": "3.4 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        },
+        {
+          "slug": "sana-light",
+          "name": "Sana light",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-sana-2/900/900",
+          "shortDescription": "Variantă cu grăsime redusă, gust la fel de proaspăt.",
+          "description": "Sana cu conținut redus de grăsime, potrivită pentru un consum echilibrat, păstrând gustul proaspăt specific.",
+          "weight": "330 g",
+          "ingredients": ["Lapte de vacă parțial degresat", "Culturi lactice selecționate"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "175 kJ / 42 kcal" },
+            { "label": "Grăsimi", "value": "1.0 g" },
+            { "label": "din care acizi grași saturați", "value": "0.6 g" },
+            { "label": "Glucide", "value": "4.7 g" },
+            { "label": "din care zaharuri", "value": "4.7 g" },
+            { "label": "Proteine", "value": "3.5 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        },
+        {
+          "slug": "sana-la-ferma",
+          "name": "Sana La Ferma",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-sana-3/900/900",
+          "shortDescription": "Fermentare mai lentă, gust mai concentrat.",
+          "description": "Sana preparată cu fermentare mai lentă, pentru o textură mai densă și un gust mai concentrat, după rețeta tradițională de fermă.",
+          "weight": "330 g",
+          "ingredients": ["Lapte de vacă integral", "Culturi lactice tradiționale"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "290 kJ / 70 kcal" },
+            { "label": "Grăsimi", "value": "3.5 g" },
+            { "label": "din care acizi grași saturați", "value": "2.3 g" },
+            { "label": "Glucide", "value": "4.3 g" },
+            { "label": "din care zaharuri", "value": "4.3 g" },
+            { "label": "Proteine", "value": "3.6 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "crema-de-unt",
+      "name": "Cremă de unt",
+      "tagline": "Unt fin, bătut pentru o textură perfectă",
+      "description": "Cremă de unt și unt tradițional, bătute din smântână proaspătă, pentru o textură fină, ușor de întins.",
+      "image": "https://picsum.photos/seed/primalact-cat-cremaunt/1200/900",
+      "products": [
+        {
+          "slug": "crema-de-unt-60",
+          "name": "Cremă de unt 60%",
+          "brand": "Primalact",
+          "image": "https://picsum.photos/seed/primalact-cremaunt-1/900/900",
+          "shortDescription": "Textură fină, ușor de întins direct din frigider.",
+          "description": "Cremă de unt cu conținut de grăsime de 60%, obținută din smântână proaspătă, cu textură fină, ușor de întins pe pâine.",
+          "weight": "200 g",
+          "ingredients": ["Smântână de lapte", "Ulei vegetal", "Culturi lactice"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "2270 kJ / 550 kcal" },
+            { "label": "Grăsimi", "value": "60 g" },
+            { "label": "din care acizi grași saturați", "value": "38 g" },
+            { "label": "Glucide", "value": "0.8 g" },
+            { "label": "din care zaharuri", "value": "0.8 g" },
+            { "label": "Proteine", "value": "1.5 g" },
+            { "label": "Sare", "value": "0.2 g" }
+          ]
+        },
+        {
+          "slug": "unt-traditional-80",
+          "name": "Unt tradițional 80%",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-cremaunt-2/900/900",
+          "shortDescription": "Unt clasic, bătut din smântână fermentată.",
+          "description": "Unt tradițional cu 80% grăsime, obținut prin baterea smântânii fermentate, cu gust bogat și aromă specifică untului de fermă.",
+          "weight": "200 g",
+          "ingredients": ["Smântână de lapte fermentată"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "3020 kJ / 734 kcal" },
+            { "label": "Grăsimi", "value": "80 g" },
+            { "label": "din care acizi grași saturați", "value": "52 g" },
+            { "label": "Glucide", "value": "0.6 g" },
+            { "label": "din care zaharuri", "value": "0.6 g" },
+            { "label": "Proteine", "value": "0.8 g" },
+            { "label": "Sare", "value": "0.1 g" }
+          ]
+        },
+        {
+          "slug": "crema-de-unt-cu-sare",
+          "name": "Cremă de unt cu sare de mare",
+          "brand": "La Ferma",
+          "image": "https://picsum.photos/seed/primalact-cremaunt-3/900/900",
+          "shortDescription": "Notă sărată fină, potrivită pentru platouri.",
+          "description": "Cremă de unt cu cristale fine de sare de mare, pentru o notă sărată subtilă, ideală pe pâine proaspătă sau pe platouri.",
+          "weight": "150 g",
+          "ingredients": ["Smântână de lapte", "Sare de mare", "Culturi lactice"],
+          "servingSize": "100 g",
+          "nutrition": [
+            { "label": "Energie", "value": "2210 kJ / 536 kcal" },
+            { "label": "Grăsimi", "value": "58 g" },
+            { "label": "din care acizi grași saturați", "value": "37 g" },
+            { "label": "Glucide", "value": "0.7 g" },
+            { "label": "din care zaharuri", "value": "0.7 g" },
+            { "label": "Proteine", "value": "1.4 g" },
+            { "label": "Sare", "value": "1.1 g" }
+          ]
+        }
+      ]
+    }
+  ]
+}
