@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full overflow-hidden leading-none sm:-mt-[50px]">
+      <div className="w-full overflow-hidden leading-none sm:-mt-[70px]">
         <svg
           viewBox="0 0 1440 160"
           xmlns="http://www.w3.org/2000/svg"
