@@ -54,12 +54,12 @@ export default function Footer() {
                 <p className="font-open text-14 font-bold uppercase tracking-wide text-brown-500">
                   {col.title}
                 </p>
-                <ul className="mt-15 space-y-2">
+                <ul className="mt-15 space-y-1 font-open text-16 leading-snug">
                   {col.links.map((link) => (
                     <li key={link.href}>
                       <Link
                         href={link.href}
-                        className="font-open text-16 text-brown-dark transition-colors hover:text-green-mountain"
+                        className="text-brown-dark transition-colors hover:text-green-mountain"
                       >
                         {link.label}
                       </Link>
