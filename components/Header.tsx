@@ -30,13 +30,13 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-[1000] bg-beige-header shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-2px_rgba(0,0,0,0.1)]">
       <nav className="mx-auto flex h-100 max-w-1200 items-center justify-between px-5">
-        <Link href="/" className="flex shrink-0 items-center">
+        <Link href="/" className="flex shrink-0 items-center self-stretch">
           <Image
             src="/images/logo.png"
             alt="Primalact"
             width={337}
             height={286}
-            className="h-60 w-auto"
+            className="h-full w-auto"
             priority
           />
         </Link>
