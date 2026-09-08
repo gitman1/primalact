@@ -71,7 +71,7 @@ export default function Footer() {
             ))}
           </div>
 
-          <div className="order-1 grid grid-cols-1 gap-x-25 gap-y-30 text-center sm:order-2 sm:flex sm:justify-center sm:gap-x-[90px] sm:text-left">
+          <div className="order-1 grid grid-cols-1 gap-x-25 gap-y-30 text-center sm:order-2 sm:grid-cols-3 sm:text-left">
             {linkColumns.map((col) => (
               <nav key={col.title} aria-label={col.title}>
                 <p className="font-open text-14 font-bold uppercase tracking-wide text-brown-500">
@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full overflow-hidden leading-none">
+      <div className="w-full overflow-hidden leading-none sm:-mt-[50px]">
         <svg
           viewBox="0 0 1440 160"
           xmlns="http://www.w3.org/2000/svg"
