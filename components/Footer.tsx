@@ -40,9 +40,9 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer>
-      <div className="bg-beige-header bg-[url('/images/subsolbg.png')] bg-cover bg-center bg-no-repeat pb-60 pt-30">
-        <div className="mx-auto flex max-w-1200 flex-wrap items-center justify-end gap-25 px-5">
-          <div className="flex flex-wrap gap-30">
+      <div className="bg-beige-header bg-[url('/images/subsolbg.png')] bg-[length:100%_auto] bg-bottom bg-no-repeat pb-[26vw] pt-30 sm:bg-cover sm:bg-center sm:pb-60">
+        <div className="mx-auto flex max-w-1200 flex-wrap items-center justify-center gap-25 px-5 sm:justify-end">
+          <div className="flex flex-wrap justify-center gap-30">
             {socialLinks.map((social) => (
               <a
                 key={social.platform}
@@ -66,7 +66,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mx-auto mt-25 grid max-w-1200 grid-cols-2 gap-25 px-5 sm:grid-cols-4">
+        <div className="mx-auto mt-25 grid max-w-1200 grid-cols-2 gap-x-15 gap-y-25 px-5 sm:grid-cols-4">
           <div>
             <p className="font-open text-14 font-bold uppercase tracking-wide text-brown-500">
               Produse
@@ -128,12 +128,12 @@ export default function Footer() {
       </div>
 
       <div className="bg-green-mountain px-30 py-15">
-        <div className="mx-auto flex max-w-1200 flex-wrap items-center justify-between gap-[10px]">
+        <div className="mx-auto flex max-w-1200 flex-col items-center gap-[10px] text-center sm:flex-row sm:justify-between sm:text-left">
           <p className="font-open text-14 text-white">
             © {new Date().getFullYear()} Primalact. Toate drepturile
             rezervate.
           </p>
-          <nav className="flex flex-wrap gap-20">
+          <nav className="flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:justify-end sm:gap-x-20">
             {legalLinks.map((link) => (
               <Link
                 key={link.href}
