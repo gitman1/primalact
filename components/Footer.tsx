@@ -20,6 +20,12 @@ const legalLinks = [
   { href: "/cookies", label: "Politica de cookies" },
 ];
 
+const linkColumns = [
+  { title: "Produse", links: productLinks },
+  { title: "Companie", links: companyLinks },
+  { title: "Legal", links: legalLinks },
+];
+
 const socialLinks = [
   {
     platform: "Facebook",
@@ -40,67 +46,51 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer>
-      <div className="bg-beige-header bg-[url('/images/subsolbg.png')] bg-[length:100%_auto] bg-bottom bg-no-repeat pb-[26vw] pt-30 sm:bg-cover sm:bg-center sm:pb-60">
-        <div className="mx-auto flex max-w-1200 flex-wrap items-center justify-center gap-25 px-5 sm:justify-end">
-          <div className="flex flex-wrap justify-center gap-30">
+      <div className="bg-beige-header bg-no-repeat pt-40 pb-30 sm:bg-[url('/images/subsolbg.png')] sm:bg-cover sm:bg-center sm:pb-60">
+        <div className="mx-auto max-w-1200 px-5">
+          <div className="grid grid-cols-1 gap-x-25 gap-y-30 text-center sm:grid-cols-3 sm:text-left">
+            {linkColumns.map((col) => (
+              <nav key={col.title} aria-label={col.title}>
+                <p className="font-open text-14 font-bold uppercase tracking-wide text-brown-500">
+                  {col.title}
+                </p>
+                <ul className="mt-15 space-y-2">
+                  {col.links.map((link) => (
+                    <li key={link.href}>
+                      <Link
+                        href={link.href}
+                        className="font-open text-16 text-brown-dark transition-colors hover:text-green-mountain"
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            ))}
+          </div>
+
+          <div className="mt-40 flex flex-wrap justify-center gap-x-30 gap-y-3 sm:justify-start">
             {socialLinks.map((social) => (
               <a
                 key={social.platform}
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-[8px] font-open text-14 text-brown-dark no-underline transition-colors hover:text-green-mountain"
+                className="flex items-center gap-[8px] font-open text-14 font-bold text-brown-dark no-underline transition-colors hover:text-green-mountain"
               >
                 <svg
                   viewBox="0 0 24 24"
-                  width={28}
-                  height={28}
+                  width={26}
+                  height={26}
                   fill="currentColor"
                   className="text-green-mountain"
                 >
                   {social.icon}
                 </svg>
-                <span className="font-bold">{social.platform}</span>
+                {social.platform}
               </a>
             ))}
-          </div>
-        </div>
-
-        <div className="mx-auto mt-25 grid max-w-1200 grid-cols-2 gap-x-15 gap-y-25 px-5 sm:grid-cols-4">
-          <div>
-            <p className="font-open text-14 font-bold uppercase tracking-wide text-brown-500">
-              Produse
-            </p>
-            <ul className="mt-15 space-y-2">
-              {productLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="font-open text-16 text-brown-dark transition-colors hover:text-green-mountain"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <p className="font-open text-14 font-bold uppercase tracking-wide text-brown-500">
-              Companie
-            </p>
-            <ul className="mt-15 space-y-2">
-              {companyLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="font-open text-16 text-brown-dark transition-colors hover:text-green-mountain"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
       </div>
@@ -127,24 +117,10 @@ export default function Footer() {
         </svg>
       </div>
 
-      <div className="bg-green-mountain px-30 py-15">
-        <div className="mx-auto flex max-w-1200 flex-col items-center gap-[10px] text-center sm:flex-row sm:justify-between sm:text-left">
-          <p className="font-open text-14 text-white">
-            © {new Date().getFullYear()} Primalact. Toate drepturile
-            rezervate.
-          </p>
-          <nav className="flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:justify-end sm:gap-x-20">
-            {legalLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="font-open text-14 text-white no-underline hover:underline"
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
-        </div>
+      <div className="bg-green-mountain px-5 py-15">
+        <p className="mx-auto max-w-1200 text-center font-open text-14 text-white">
+          © {new Date().getFullYear()} Primalact. Toate drepturile rezervate.
+        </p>
       </div>
     </footer>
   );
