@@ -46,7 +46,7 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer>
-      <div className="bg-beige-header bg-no-repeat pb-30 pt-40 sm:bg-[url('/images/subsolbg.png')] sm:bg-cover sm:bg-bottom sm:pb-60">
+      <div className="bg-beige-header bg-[url('/images/subsolbg.png')] bg-[length:100%_auto] bg-bottom bg-no-repeat pb-[21vw] pt-40 sm:bg-cover sm:pb-60">
         <div className="mx-auto flex max-w-1200 flex-col px-5">
           <div className="order-2 mt-40 flex flex-wrap justify-center gap-x-30 gap-y-3 sm:order-1 sm:mb-10 sm:mt-0 sm:justify-end">
             {socialLinks.map((social) => (
@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full overflow-hidden leading-none sm:-mt-[50px]">
+      <div className="-mt-[5vw] w-full overflow-hidden leading-none sm:-mt-[50px]">
         <svg
           viewBox="0 0 1440 160"
           xmlns="http://www.w3.org/2000/svg"
