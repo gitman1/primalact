@@ -18,11 +18,12 @@ export default function InstagramCard({ post }: { post: InstagramPost }) {
       className="cursor-pointer overflow-hidden rounded-[15px] border border-beige-700 transition-shadow duration-300 hover:shadow-lg"
     >
       <div
-        className="h-[180px] w-full sm:h-[268px]"
+        className="aspect-square w-full"
         style={{
           backgroundImage: `url(${post.image})`,
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
         }}
       />
 
